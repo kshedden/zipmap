@@ -1,5 +1,5 @@
 zipmap provides utility functions for reading and writing a limited
-range of Go maps as gzipped files and streams, using gobs as the wire
+range of Go maps as gzipped files and streams, using gob as the wire
 format.  Currently, a limited set of map types with primitive keys and
 values is supported: `map[int64]float64`, `map[int64]float64`, and
 `map[int64]string`.
